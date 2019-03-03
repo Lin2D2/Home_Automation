@@ -1,0 +1,26 @@
+Parts List:
+
+  Respberry Pi:
+    Rrespberry Pi 3 Model A+ (https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/)
+    oder Raspberry Pi Zero W (https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
+    mit Raspberry Pi PoE HAT bei Pi 3 (https://www.raspberrypi.org/products/poe-hat/)
+    evtl. Raspberry Pi Touch Display (https://www.raspberrypi.org/products/raspberry-pi-touch-display/)
+  
+  Esp32:
+    Esp32-Entwicklungsplatine (https://www.banggood.com/de/ESP32-DevkitC-Core-Board-ESP32-Development-Board-ESP32-WROOM-32U32D-F-VB-VIB-S1-p-1426780.html?gmcCountry=DE&currency=EUR&createTmp=1&utm_source=googleshopping&utm_medium=cpc_bgs&utm_content=frank&utm_campaign=pla-mix-de-pc-0124&ad_id=327381820946&gclid=EAIaIQobChMIgL2U_czj4AIVyCnTCh1fIwukEAkYASABEgKoW_D_BwE&ID=566842&cur_warehouse=CN)
+    oder Esp32 Modul (https://www.gsmcentrum.eu/modul-iot-pcb-adc-dac-gpio-i2c-i2s-pwm-sdio-spi-uart-smd?gclid=EAIaIQobChMIgL2U_czj4AIVyCnTCh1fIwukEAkYAiABEgLNjfD_BwE)
+    
+  Sensoren:
+    1x Motion Sensor (https://de.aliexpress.com/item/Free-Shipping-1PCS-SR501-HC-SR501-Adjust-IR-Pyroelectric-Infrared-PIR-module-Motion-Sensor-Detector-Module/1874938103.html?spm=a2g0x.search0104.3.15.37aa5bafnA6vVS&ws_ab_test=searchweb0_0,searchweb201602_10_10065_10068_10890_10547_319_10546_317_10548_10696_10084_453_454_10083_10618_10304_10307_10820_537_536_10902_10843_10059_10884_10887_321_322_10103,searchweb201603_45,ppcSwitch_0&algo_expid=912aa4bd-d17a-4780-9274-10a94fdea313-5&algo_pvid=912aa4bd-d17a-4780-9274-10a94fdea313)
+    1x Digitale Temperatur und Feuchtigkeit Sensor (https://de.aliexpress.com/item/High-Precision-AM2302-DHT22-Digital-Temperature-Humidity-Sensor-Module-For-arduino-Uno-R3/32759158558.html?spm=a2g0x.search0104.3.8.37aa5bafnA6vVS&ws_ab_test=searchweb0_0,searchweb201602_10_10065_10068_10890_10547_319_10546_317_10548_10696_10084_453_454_10083_10618_10304_10307_10820_537_536_10902_10843_10059_10884_10887_321_322_10103,searchweb201603_45,ppcSwitch_0&algo_expid=912aa4bd-d17a-4780-9274-10a94fdea313-4&algo_pvid=912aa4bd-d17a-4780-9274-10a94fdea313)
+    4x Magnetische Kontaktieren Sensor (https://de.aliexpress.com/item/10PCS-Wired-Window-Magnetic-Contact-Sensor-Detector-Switch-for-GSM-Home-Alarm-Security-Plastic-Reed-Contact/32684706524.html?spm=a2g0x.search0104.3.12.cdcd7e21wjiqGA&ws_ab_test=searchweb0_0,searchweb201602_10_10065_10068_10890_10547_319_10546_317_10548_10696_10084_453_454_10083_10618_10304_10307_10820_537_536_10902_10843_10059_10884_10887_321_322_10103,searchweb201603_45,ppcSwitch_0&algo_expid=35090478-20a9-4da5-b9ad-08c1d7dd5369-1&algo_pvid=35090478-20a9-4da5-b9ad-08c1d7dd5369)
+    
+  Relais:
+    5v 1Kanal (https://de.aliexpress.com/item/5-v-1-Kanal-Relais-Modul-Board-Schild-para-PIC-AVR-DSP-ARM-MCU-para-Arduino/32960140479.html?spm=a2g0x.search0104.3.2.25496dfdTJwMXS&ws_ab_test=searchweb0_0%2Csearchweb201602_10_10065_10068_10890_10547_319_10546_317_10548_10696_10084_453_454_10083_10618_10304_10307_10820_537_536_10902_10843_10059_10884_10887_321_322_10103%2Csearchweb201603_45%2CppcSwitch_0&algo_pvid=421da45f-4528-4ed7-94c1-8e0cfe976ae8&algo_expid=421da45f-4528-4ed7-94c1-8e0cfe976ae8-0)
+    5v 8Kanal (https://de.aliexpress.com/item/8-stra-enrelaismodul-mit-optische-kopplung-isolation-PLC-bedienfeld-5-v-optional-geringe-ausl-se/32870323139.html?spm=a2g0x.search0104.3.36.25496dfdTJwMXS&ws_ab_test=searchweb0_0%2Csearchweb201602_10_10065_10068_10890_10547_319_10546_317_10548_10696_10084_453_454_10083_10618_10304_10307_10820_537_536_10902_10843_10059_10884_10887_321_322_10103%2Csearchweb201603_45%2CppcSwitch_0&algo_pvid=421da45f-4528-4ed7-94c1-8e0cfe976ae8&algo_expid=421da45f-4528-4ed7-94c1-8e0cfe976ae8-5)
+    (3x 240V 1Kanal) (https://de.aliexpress.com/item/8-stra-enrelaismodul-mit-optische-kopplung-isolation-PLC-bedienfeld-5-v-optional-geringe-ausl-se/32870323139.html?spm=a2g0x.search0104.3.36.25496dfdTJwMXS&ws_ab_test=searchweb0_0%2Csearchweb201602_10_10065_10068_10890_10547_319_10546_317_10548_10696_10084_453_454_10083_10618_10304_10307_10820_537_536_10902_10843_10059_10884_10887_321_322_10103%2Csearchweb201603_45%2CppcSwitch_0&algo_pvid=421da45f-4528-4ed7-94c1-8e0cfe976ae8&algo_expid=421da45f-4528-4ed7-94c1-8e0cfe976ae8-5)
+    240V 4Kanal) (https://www.amazon.de/AZDelivery-1-Relais-KY-019-Low-Level-Trigger-Arduino/dp/B078Q8S9S9/ref=sr_1_1?ie=UTF8&qid=1551537002&sr=8-1&keywords=1%2Bkanal%2Brelais%2B230v&th=1)
+    
+  7-Segment Display:
+    7-Segment Display (https://www.amazon.de/sourcingmap-Kathode-Segment-Anzeige-Digital-rot/dp/B00EZBDOGM/ref=sr_1_18?ie=UTF8&qid=1551539017&sr=8-18&keywords=Arduino+7+Segment)
+    
